@@ -19,6 +19,11 @@
 
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
+<!--Google Font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -41,11 +46,6 @@
           <a class="nav-link active" aria-current="page" href="#">Follow Us</a>
         </li>
 
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
     </div>
   </div>
 </nav>
@@ -58,34 +58,69 @@
     <img src="https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> 
  </div> 
    <div class="col-lg-6"> 
-    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1> 
+    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">A rundown of top new skateboard decks</h1> 
     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor pretium lacus, quis fringilla justo facilisis mattis. Phasellus non turpis in ipsum sagittis volutpat. In dapibus odio erat, id tincidunt turpis faucibus eget. Suspendisse efficitur vel justo a tempus. Nunc nunc enim, venenatis a sem ac, ornare tincidunt enim. Praesent neque lorem, ullamcorper eget convallis eget, iaculis vitae eros. Etiam rutrum cursus arcu id auctor. Proin vitae tristique velit. Praesent vitae tincidunt libero, sed porta urna.</p> 
    <div class="d-grid gap-2 d-md-flex justify-content-md-start"> 
-     <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Primary</button>  
+     <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 push">Read Now</button>  
    </div> 
    </div> 
   </div> 
  </div>
 <!--Hero End-->
-<!--Column Start-->
+<!--Main Column Start-->
 <div class="container">
+
  <div class="row main">
+
     <div class="col-md-6">
         <h2>Lorem ipsum dolor sit amet</h2>
         <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin at ex porta, ornare risus porta, aliquam diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
         <img src="https://images.unsplash.com/photo-1572776685600-aca8c3456337?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80" class="main-image">
         <br><br>
-        <button type="button" class="btn btn-dark">Read Now</button>
+        <button type="button" class="btn btn-dark push">Read Now</button>
     </div>
+
     <div class="col-md-6">
         <h2>Phasellus porttitor pretium lacus</h2>
         <p>Praesent neque lorem, ullamcorper eget convallis eget, iaculis vitae eros. Etiam rutrum cursus arcu id auctor. Proin vitae tristique velit. Praesent vitae tincidunt libero, sed porta urna.</p>
         <img src="https://images.unsplash.com/photo-1621544402532-78c290378588?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" class="main-image">
         <br><br>
-        <button type="button" class="btn btn-dark">Read Now</button>
+        <button type="button" class="btn btn-dark push">Read Now</button>
     </div>
 
  </div>
+<!--Main Column End-->
+<!--Bottom Column Start-->
+ <div class="row bottom">
+
+  <div class="col-md-4">
+    <i class="bi bi-book"></i>
+    <h2>Read</h2>
+    <p>Morbi tempor libero velit, ut tristique dolor vehicula ac.</p>
+  </div>
+
+  <div class="col-md-4">
+    <i class="bi bi-chat-square-dots"></i>
+    <h2>Comment</h2>
+    <p>Donec vitae tristique sapien.</p>
+  </div>
+
+  <div class="col-md-4">
+    <i class="bi bi-suit-heart"></i>
+    <h2>Follow</h2>
+    <p>Proin vitae dui eu mi pretium placerat.</p>
+  </div>
+
+ </div>
+<!--Bottom Column End-->
 
 </div>
+<!--Footer Start-->
+<footer class="footer mt-auto py-3 bg-dark">
+  <div class="container">
+    <span class="text-muted">This is a bootstrap exercise</span>
+  </div>
+</footer>
+<!--Footer End-->
+
 </body>
