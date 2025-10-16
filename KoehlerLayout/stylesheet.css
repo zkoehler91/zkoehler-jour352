@@ -1,10 +1,12 @@
 #content {
     margin: 0 auto;
     width: 900px;
+    padding-bottom: 20px;
 }
 h1 {
     font-family: Helvetica, sans-serif;
     font-size: 32px;
+    padding-top: 20px;
 }
 h2 {
     font-family: Georgia, serif;
@@ -23,9 +25,25 @@ p {
 .image {
     width: 900px;
 }
+.wrap {
+    width: 500px;
+    float: right;
+}
 .caption {
     font-family: Georgia, serif;
     font-size: 13px;
     font-style: italic;
     color: gray;
+}
+.special {
+    float: right;
+}
+blockquote {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color: steelblue;
+    float: right;
+}
+.links {
+    border-right: 1px solid black;
 }
