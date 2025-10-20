@@ -3,6 +3,9 @@
     width: 900px;
     padding-bottom: 20px;
 }
+#masthead {
+    width: 900px;
+}
 h1 {
     font-family: Helvetica, sans-serif;
     font-size: 32px;
