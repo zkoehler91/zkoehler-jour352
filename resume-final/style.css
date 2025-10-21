@@ -9,6 +9,7 @@ body {
 #name {
     text-align: center;
     font-size: 100px;
+    font-family: "Nunito", sans-serif;
     color: #707070;
     padding-top: 100px;
     border-bottom: #779f99 solid 5px;
@@ -16,6 +17,7 @@ body {
 #career {
     text-align: center;
     font-size: 35px;
+    font-family: "Nunito", sans-serif;
     letter-spacing: 2px;
     color:#707070;
 }
