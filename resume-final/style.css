@@ -1,0 +1,21 @@
+body {
+    background-color: #f4e9d3;
+}
+.header {
+    width: 400px;
+    display: block;
+    transform: scaleX(-1);
+}
+#name {
+    text-align: center;
+    font-size: 100px;
+    color: #707070;
+    padding-top: 100px;
+    border-bottom: #779f99 solid 5px;
+}
+#career {
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color:#707070;
+}
