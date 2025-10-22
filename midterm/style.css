@@ -1,0 +1,54 @@
+
+body {
+    background-color: beige;
+}
+#content {
+    margin: 0 auto;
+    max-width: 700px;
+    padding-bottom: 100px;
+}
+#masthead {
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+.image {
+    width: 800px;
+    margin: 0 -50px;
+    border: solid white 5px;
+}
+#cover {
+    width: 500px;
+    margin: 0 75px;
+}
+#headline {
+    font-family: "Baskervville", Times, serif;
+    font-size: 50px;
+    padding: 20px;
+    color:darkgreen;
+    text-align: center;
+}
+h4 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color:gray;
+    font-style: italic;
+}
+h2 {
+    font-family: "Baskervville", Times, serif;
+    font-size: 35px;
+    color:darkgreen;
+}
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color:black;
+    border-top: solid darkgreen 1px;
+    border-bottom: solid darkgreen 1px;
+}
+#painting {
+    width: 300px;
+}
+#double {
+    width: 300px;
+}
