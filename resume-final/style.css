@@ -22,6 +22,22 @@ body {
     letter-spacing: 2px;
     color:#707070;
 }
+.menu {
+    text-align: center;
+}
+.menu li {
+    font-size: 20px;
+    display: inline-block;
+}
+.menu a:link {
+    color:#779f99;
+}
+.menu a:hover {
+    color:#92b6b1;
+}
+.menu a:visited {
+    color:#707070;
+}
 #line {
     border: none;
     border-top:#707070 solid 5px;
@@ -46,11 +62,36 @@ body {
 .left {
     border-right: solid #707070 5px;
 }
+.work {
+    margin: 0 -10px;
+}
+.work li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.work a:link {
+    color:#779f99;
+}
+.work a:hover {
+    color:#92b6b1;
+}
+.work a:visited {
+    color:#707070;
+}
+.logo {
+    width: 100px;
+}
+#sports {
+    font-size: 20px;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 -8px;
+    font-style: italic;
+}
 ul {
     list-style: square;
     font-size: 35px;
     color: #779f99;
-
 }
 .right-title {
     font-family: "Nunito", sans-serif;
@@ -68,6 +109,11 @@ ul {
     font-size: 15px;
 }
 #skills {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 20px;
+}
+#honors {
     font-family: Arial, Helvetica, sans-serif;
     color:black;
     font-size: 20px;
