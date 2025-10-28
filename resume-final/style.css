@@ -8,6 +8,8 @@ body {
     margin: -100px -150px;
 }
 #name {
+    position: relative;
+    z-index: 9;
     text-align: center;
     font-size: 100px;
     font-family: "Nunito", sans-serif;
@@ -16,6 +18,8 @@ body {
     border-bottom: #779f99 solid 5px;
 }
 #career {
+    position: relative;
+    z-index: 9;
     text-align: center;
     font-size: 35px;
     font-family: "Nunito", sans-serif;
