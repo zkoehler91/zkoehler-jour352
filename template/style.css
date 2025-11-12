@@ -22,11 +22,12 @@
 }
 img {
     width: 75%;
-    margin: 0 165px;
+    display:block;
+    margin: 0 auto;
     padding-top: 20px;
 }
 .caption {
-    margin: 0 165px;
+    margin: 0 150px;
     font-size: 15px;
     color:gray;
 }
