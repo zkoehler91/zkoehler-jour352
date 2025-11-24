@@ -11,6 +11,49 @@
     font-family: "Fredericka the Great", serif;
     font-size: 35px;
 }
+#scrollspyHeading2 {
+    color:#012169
+}
+#scrollspyHeading3 {
+    color:#fa4616
+}
+#scrollspyHeading4 {
+    color:#582d83
+}
+#scrollspyHeading5 {
+    color:#f47321
+}
+#scrollspyHeading6 {
+    color:#0c2340
+}
+#scrollspyHeading7 {
+    color:#841617
+}
+#scrollspyHeading8 {
+    color:#007030
+}
+#scrollspyHeading9 {
+    color:#4d1979
+}
+#scrollspyHeading10 {
+    color:#cc0000
+}
+#scrollspyHeading11 {
+    color:#ffcc00
+}
+#scrollspyHeading12 {
+    color:#232d4b
+}
+#scrollspyHeading13 {
+    color:#6a2c3e
+}
+#scrollspyHeading14 {
+    color:#4b2e83
+}
+#scrollspyHeading15 {
+    color:#a60f2d
+}
+
 .bold {
     font-weight: bold;
 }
