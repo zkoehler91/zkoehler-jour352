@@ -1,0 +1,31 @@
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.group-start {
+    font-family: "Fredericka the Great", serif;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.headline {
+    font-family: "Fredericka the Great", serif;
+    font-size: 35px;
+}
+.bold {
+    font-weight: bold;
+}
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3%;
+}
+#footer {
+    background-color: #212529;
+    height: 150px;
+}
+.end {
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    padding-top: 55px;
+}
