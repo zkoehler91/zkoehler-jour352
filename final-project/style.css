@@ -11,6 +11,17 @@
     font-family: "Fredericka the Great", serif;
     font-size: 35px;
 }
+#topper {
+    width: 100%;
+    opacity: .9;
+    filter: brightness(75%);
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    max-width: 90%;
+    margin:auto;
+}
 #scrollspyHeading2 {
     color:#012169
 }
