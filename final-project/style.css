@@ -11,10 +11,23 @@
     font-family: "Fredericka the Great", serif;
     font-size: 35px;
 }
-#topper {
+.topper-container {
+    position: relative;
+    text-align: center;
+}
+.topper-image {
     width: 100%;
+}
+.overlay {
+    position: absolute;
+    width: 80%;
+    top: 65%;
+    left: 10%;
+    background-color: black;
     opacity: .9;
-    filter: brightness(75%);
+    font-family: "Fredericka the Great", serif;
+    font-size: 50px;
+    color:white;
 }
 .navbar {
     position: sticky;
