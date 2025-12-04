@@ -29,12 +29,7 @@
     font-size: 50px;
     color:white;
 }
-.navbar {
-    position: sticky;
-    top: 0;
-    max-width: 90%;
-    margin:auto;
-}
+/*
 #scrollspyHeading2 {
     color:#012169
 }
@@ -122,7 +117,7 @@
 #scrollspyHeading30 {
     color:#97182f
 }
-
+*/
 .bold {
     font-weight: bold;
 }
