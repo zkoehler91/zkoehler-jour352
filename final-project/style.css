@@ -9,7 +9,7 @@
 }
 .headline {
     font-family: "Fredericka the Great", serif;
-    font-size: 35px;
+    font-size: 2rem;
 }
 .topper-container {
     position: relative;
@@ -125,6 +125,28 @@ p {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 3%;
+}
+.lanning {
+    float: right;
+    border: 5px solid black;
+}
+.kill {
+    float: right;
+    margin-right: 15%;
+    border: 5px solid black;
+    width: 25%;
+}
+.caption {
+    float: right;
+    color: gray;
+    font-size: 15px;
+    font-style: italic;
+}
+.pie-chart {
+    width: 75%;
+}
+.bar-chart {
+    width: 75%;
 }
 #footer {
     background-color: #212529;
