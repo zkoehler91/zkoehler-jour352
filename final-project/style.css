@@ -167,3 +167,9 @@ p {
     text-align: center;
     padding-top: 55px;
 }
+@media screen and (max-width: 800px) {
+    .overlay {
+        font-size: 25px;
+    }
+    
+}
