@@ -9,7 +9,13 @@
 }
 .headline {
     font-family: "Fredericka the Great", serif;
-    font-size: 2rem;
+    font-size: 35px;
+}
+.byline{
+    font-size: 15px;
+    color:gray;
+    font-style: italic;
+    padding-top: 5px;
 }
 .topper-container {
     position: relative;
@@ -127,17 +133,20 @@ p {
     padding-left: 3%;
 }
 .lanning {
-    float: right;
-    border: 5px solid black;
+    width: 100%;
+}
+.mcguire {
+    width: 100%;
 }
 .kill {
     float: right;
-    margin-right: 15%;
-    border: 5px solid black;
-    width: 25%;
+    width: 35%;
 }
+.sumrall {
+    width: 100%;
+}
+
 .caption {
-    float: right;
     color: gray;
     font-size: 15px;
     font-style: italic;
